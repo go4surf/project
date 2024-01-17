@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dein Formular</title>
+</head>
+<body>
+  <h1>Dein Formular</h1>
+  <form id="meinFormular">
+    <label for="maschinennummer">Maschinennummer:</label>
+    <input type="text" id="maschinennummer" name="maschinennummer" required><br>
+    <label for="code">Code:</label>
+    <input type="text" id="code" name="code" required><br>
+    <label for="email">E-Mailadresse:</label>
+    <input type="email" id="email" name="email" required><br>
+    <button type="button" onclick="datenInFormularFuellen()">Daten füllen</button>
+    <button type="submit">Senden</button>
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
